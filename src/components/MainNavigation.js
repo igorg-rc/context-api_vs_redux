@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import './MainNavigation.css';
 
-const mainNavigation = props => (
+const MainNavigation = props => (
   <header className="main-navigation">
     <nav>
       <ul>
@@ -18,4 +18,4 @@ const mainNavigation = props => (
   </header>
 );
 
-export default mainNavigation;
+export default MainNavigation;
